@@ -5,7 +5,7 @@ const user = require('./userCtrl');
 const budget = require('./budgetCtrl');
 
 const { SERVER_PORT, SESSION_SECRET } = process.env;
-
+// console.log(SESSION_SECRET)
 const app = express();
 app.use(express.json());
 app.use(session({
